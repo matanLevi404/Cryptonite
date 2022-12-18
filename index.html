@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;600&family=Poppins:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cryptonite</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jsviews/1.0.11/jquery.observable.js"
+      integrity="sha512-9HvpbUB6vyt/HcWOSul0SvSVo4dibei/WPxRPfUQyarDtRKvg517rM3rW/MDSNp7yzBWBjm9Ktl4RHGT6+Co1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="jQuery.js" type="module" defer></script>
+  </head>
+  <body>
+    <div class="heading flex">
+      <h1>Cryptonite</h1>
+      <div class="img"></div>
+    </div>
+
+    <div class="navbar container flex">
+      <div class="paging flex">
+        <button class="home btn colored-btn">Home</button>
+        <button class="live btn non-colored-btn">Live Reports</button>
+        <button class="about btn non-colored-btn">About</button>
+      </div>
+      <div class="search flex">
+        <input type="text" class="search-bar" placeholder="Search" />
+        <button class="search-btn">Search</button>
+      </div>
+    </div>
+
+    <!-- --------- slider ---------- -->
+    <div class="slider-container">
+      <div class="slider-item">
+        <div class="grid grid-home">
+          <!-- <div class="col" id="col1">
+          <div class="col"></div>
+          <div class="col"></div> -->
+        </div>
+      </div>
+      <div class="slider-item">
+        <div class="grid grid-live">
+          <div class="chart" id="chart">
+            <span>you have not picked any coins to follow :(</span>
+          </div>
+        </div>
+      </div>
+      <div class="slider-item">
+        <div class="grid grid-about">
+          <div class="about-me">
+            <div class="profile-card">
+              <div class="description flex">
+                <div>
+                  Hi, my name is Matan Levi :) <br />
+                  <br />
+                  Im a student in john bryce academy for FULL-STACK web
+                  development. Hoping to do well and getting a good job. This is
+                  project number 2 - in this project we practiced fetching data
+                  from other site (coingekco in this project), and developing
+                  our jQuery skills.
+                </div>
+              </div>
+              <div class="headline">
+                <div class="sub-head image">
+                  <img src="./img/propic.png" alt="" />
+                </div>
+                <div class="sub-head details">
+                  <div class="tails">Matan Levi</div>
+                  <div class="tails">Labusar@gmail.com</div>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper">
+              <div class="icon facebook">
+                <div class="tooltip">Facebook</div>
+                <span><i class="fab fa-facebook-f"></i></span>
+              </div>
+              <div class="icon twitter">
+                <div class="tooltip">Twitter</div>
+                <span><i class="fab fa-twitter"></i></span>
+              </div>
+              <div class="icon instagram">
+                <div class="tooltip">Instagram</div>
+                <span><i class="fab fa-instagram"></i></span>
+              </div>
+              <div class="icon github">
+                <div class="tooltip">Github</div>
+                <span><i class="fab fa-github"></i></span>
+              </div>
+              <div class="icon youtube">
+                <div class="tooltip">YouTube</div>
+                <span><i class="fab fa-youtube"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------- overlay ----------- -->
+    <div class="back flex-justifuy">
+      <div class="pop-up flex">
+        <div class="title flex-justifuy">
+          <img src="img/mark.png" alt="" />
+        </div>
+        <div class="active-coins">
+          <!-- <div class="col pop" id="col1"> /// !!but this is a clone from home-grid!!
+          <div class="col pop"></div>
+          <div class="col pop"></div> -->
+        </div>
+        <div class="buttons flex-justifuy">
+          <button class="cancel btn non-colored-btn">Cancel</button>
+          <button class="ok btn colored-btn">Ok</button>
+        </div>
+      </div>
+    </div>
+    <!-- ---------- overlay ----------- -->
+
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+  </body>
+</html>

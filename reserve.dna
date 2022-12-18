@@ -1,0 +1,14 @@
+  // function moreInfo() {
+  //   const idName = $(this).attr("name");
+  //   $(`.col[name="${idName}"]`).toggleClass("open");
+  //   if ($(`.info[name="${idName}"]`).html() == "") callApiForInfo(idName);
+  //   else if (
+  //     !Object.keys(timingObject).includes(idName) ||
+  //     new Date().getMinutes() - timingObject[idName] < 1
+  //   )
+  //     timingObject[idName] = new Date().getMinutes();
+  //   else callApiForInfo(idName);
+  //   timingObject[idName] = new Date().getMinutes();
+  // }
+
+  // "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&page=1&per_page=27"
