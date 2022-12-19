@@ -25,6 +25,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  background-color: #e8f0fe;
   /* background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%); */
 }
 
@@ -407,7 +408,7 @@ body {
   position: absolute;
   display: flex;
   flex-direction: column;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   /* background-color: var(--profile-background); */
   background-color: var(--heading-color);
   /* background-color: #a1caf14f; */
@@ -417,7 +418,7 @@ body {
 .headline {
   width: 100%;
   height: 25%;
-  border-radius: 30px 0px 30px 30px;
+  /* border-radius: 30px 0px 30px 30px; */
   background-color: #fff;
   display: flex;
 }
